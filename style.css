@@ -18,10 +18,3 @@ body {
 h1 {
   color: #ffee00;
 }
-a {
-  color: white;
-  transition: all 0.3s ease;
-}
-a:hover {
-  color: #ffee00;
-}
