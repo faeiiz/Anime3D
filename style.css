@@ -11,10 +11,12 @@
 html,
 body {
   font-family: "ryzes";
-  color: #ffee00;
   background-color: #000;
   width: 100%;
   height: 100%;
+}
+h1 {
+  color: #ffee00;
 }
 a {
   color: gray;
