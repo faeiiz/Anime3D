@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime3D</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main w-full">
+      <nav
+        class="fixed top-0 left-0 w-full px-4 py-2 flex justify-between z-10"
+      >
+        <h1 class="text-lg md:text-2xl lg:text-3xl font-bold">faiez mn</h1>
+        <div
+          class="flex gap-2 md:gap-4 text-sm md:text-base lg:text-lg justify-center items-center"
+        >
+          <a href="#" class="hover:text-[#ffee00]">Home</a>
+          <a href="#" class="hover:text-[#ffee00]">About</a>
+          <a href="#" class="hover:text-[#ffee00]">Contact</a>
+          <a href="#" class="hover:text-[#ffee00]">Games</a>
+          <a href="#" class="hover:text-[#ffee00]">Projects</a>
+        </div>
+      </nav>
+      <div class="w-full overflow-hidden relative">
+        <svg
+          viewBox="0 0 96 16"
+          xmlns="http://www.w3.org/2000/svg"
+          class="absolute inset-0 m-auto w-2/3 mix-blend-difference"
+        >
+          <path
+            d="M0.04 15V8.04C0.04 5.512 0.472 3.68 1.336 2.544C2.216 1.408 3.648 0.839999 5.632 0.839999C7.952 0.839999 9.528 1.6 10.36 3.12L5.344 7.32H10.456V8.04H3.352L9.424 2.976C8.72 2.032 7.456 1.56 5.632 1.56C4.832 1.56 4.16 1.648 3.616 1.824C3.072 1.984 2.568 2.296 2.104 2.76C1.656 3.208 1.32 3.872 1.096 4.752C0.872 5.616 0.76 6.712 0.76 8.04V15H0.04ZM15.3333 14.28H23.1573L18.2373 2.688L13.0053 15H12.2373L18.2373 0.839999L24.2373 15H15.3333V14.28ZM36.2873 13.584C35.4073 14.688 33.9673 15.24 31.9673 15.24C29.9673 15.24 28.5353 14.672 27.6713 13.536C26.8073 12.4 26.3753 10.568 26.3753 8.04C26.3753 5.512 26.8073 3.68 27.6713 2.544C28.5353 1.408 29.9673 0.839999 31.9673 0.839999C34.2873 0.839999 35.8633 1.6 36.6953 3.12L30.8153 8.04H29.6873L35.7593 2.976C35.0553 2.032 33.7913 1.56 31.9673 1.56C31.1673 1.56 30.4953 1.648 29.9513 1.824C29.4073 1.984 28.9033 2.296 28.4393 2.76C27.9913 3.208 27.6553 3.872 27.4313 4.752C27.2073 5.616 27.0953 6.712 27.0953 8.04C27.0953 9.368 27.2073 10.472 27.4313 11.352C27.6553 12.216 27.9913 12.88 28.4393 13.344C28.9033 13.792 29.4073 14.104 29.9513 14.28C30.4953 14.44 31.1673 14.52 31.9673 14.52C33.7913 14.52 35.0553 14.048 35.7593 13.104L36.2873 13.584ZM40.1238 1.08H40.8438V15H40.1238V1.08ZM51.7812 1.8H44.2932V1.08H53.0292L45.3972 14.28H53.1252V15H44.1492L51.7812 1.8ZM65.8173 14.28H75.0813V2.088L69.6813 7.488L64.2812 2.088V15L63.5613 14.976V1.08H64.2812L69.6813 6.48L75.0813 1.08H75.8013V15L65.8173 14.976V14.28ZM80.3659 15V1.08H81.0859L88.9099 13.68V1.08H89.6299V15H88.9099L81.0859 2.376V15H80.3659ZM93.8101 13.608H95.3941V15H93.8101V13.608Z"
+            stroke="#FFEE00"
+            stroke-width="1.5"
+            stroke-dasharray="1000"
+            stroke-dashoffset="1000"
+          />
+        </svg>
+
+        <canvas id="draw"></canvas>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
